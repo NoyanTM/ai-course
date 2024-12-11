@@ -1,0 +1,30 @@
+services:
+  redis:
+    image: bitnami/redis:latest # redis:7.2.4-bookworm
+    container_name: redis_task-1
+    env_file:
+      - .env
+    environment:
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - REDIS_USER=${REDIS_USER}
+      - REDIS_USER_PASSWORD=${REDIS_USER_PASSWORD}
+    ports:
+      - "${REDIS_HOST}:${REDIS_PORT_EXTERNAL}:${REDIS_PORT}"
+    volumes:
+      - ./redis-data:/data
+    networks:
+      - task-1
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD-SHELL", "redis-cli ping -a ${REDIS_PASSWORD}" ]
+      interval: 1s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  redis_data:
+
+networks:
+  task-1:
+    driver: bridge
+    name: task-1

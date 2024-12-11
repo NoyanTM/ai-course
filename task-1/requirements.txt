@@ -1,0 +1,10 @@
+httpx
+bs4
+lxml
+pytest
+celery[redis]
+tqdm
+fake-useragent
+python-dotenv
+pandas
+flower
