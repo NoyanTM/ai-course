@@ -1,0 +1,250 @@
+city,lat,lng,country,iso2,admin_name,capital,population,population_proper
+Almaty,43.2400,76.9150,Kazakhstan,KZ,Almaty,admin,1916822,1916822
+Shymkent,42.3167,69.5958,Kazakhstan,KZ,Shymkent,admin,1184113,1184113
+Astana,51.1472,71.4222,Kazakhstan,KZ,Nur-Sultan,primary,1078362,1078362
+Qaraghandy,49.8028,73.1056,Kazakhstan,KZ,Qaraghandy,admin,497777,497777
+Öskemen,49.9833,82.6167,Kazakhstan,KZ,East Kazakhstan,admin,400142,400142
+Aqtöbe,50.2836,57.2297,Kazakhstan,KZ,Aqtöbe,admin,387807,387807
+Taraz,42.9000,71.3667,Kazakhstan,KZ,Zhambyl,admin,357795,357795
+Semey,50.4333,80.2667,Kazakhstan,KZ,Abay,admin,350201,350201
+Pavlodar,52.3000,76.9500,Kazakhstan,KZ,Pavlodar,admin,343091,7738
+Türkistan,43.3019,68.2692,Kazakhstan,KZ,Türkistan,admin,250000,164746
+Qyzylorda,44.8500,65.5167,Kazakhstan,KZ,Qyzylorda,admin,242462,242462
+Oral,51.2225,51.3725,Kazakhstan,KZ,West Kazakhstan,admin,234184,36466
+Qostanay,53.2000,63.6200,Kazakhstan,KZ,Qostanay,admin,217135,217135
+Petropavl,54.8833,69.1667,Kazakhstan,KZ,North Kazakhstan,admin,201446,201446
+Temirtaū,50.0500,72.9500,Kazakhstan,KZ,Qaraghandy,minor,185082,185082
+Aqtaū,43.6525,51.1575,Kazakhstan,KZ,Mangghystaū,admin,183350,183350
+Kökshetaū,53.2833,69.3833,Kazakhstan,KZ,Aqmola,admin,165153,139063
+Ekibastuz,51.6667,75.3667,Kazakhstan,KZ,Pavlodar,minor,159760,159760
+Zhangaözen,43.3378,52.8553,Kazakhstan,KZ,Mangghystaū,,147962,147962
+Atyraū,47.1167,51.8833,Kazakhstan,KZ,Atyraū,admin,130916,130916
+Taldyqorghan,45.0167,78.3667,Kazakhstan,KZ,Zhetisū,admin,129960,129960
+Rudnyy,52.9667,63.1333,Kazakhstan,KZ,Qostanay,minor,128200,128200
+Zhezqazghan,47.7833,67.7000,Kazakhstan,KZ,Ulytaū,admin,90661,86227
+Kentaū,43.5167,68.5167,Kazakhstan,KZ,Türkistan,minor,81484,81484
+Balqash,46.8481,74.9950,Kazakhstan,KZ,Qaraghandy,minor,78002,78002
+Aqsū,52.0333,76.9167,Kazakhstan,KZ,Pavlodar,minor,69354,69354
+Sätbayev,47.9000,67.5333,Kazakhstan,KZ,Ulytaū,minor,61883,61883
+Kapchagay,43.8833,77.0833,Kazakhstan,KZ,Almaty,,61677,61677
+Qaskeleng,43.2000,76.6200,Kazakhstan,KZ,Almaty,minor,58418,58418
+Ridder,50.3500,83.5167,Kazakhstan,KZ,East Kazakhstan,minor,49695,49695
+Zyryanovsk,49.7453,84.2548,Kazakhstan,KZ,East Kazakhstan,minor,49658,49658
+Talghar,43.3000,77.2333,Kazakhstan,KZ,Almaty,minor,47301,47301
+Stepnogorsk,52.3497,71.8900,Kazakhstan,KZ,Aqmola,minor,46712,46712
+Shchūchīnsk,52.9333,70.2000,Kazakhstan,KZ,Aqmola,minor,45004,45004
+Qarabulaq,42.5167,69.8000,Kazakhstan,KZ,Türkistan,,45000,45000
+Zharkent,44.1667,80.0000,Kazakhstan,KZ,Zhetisū,minor,42617,42617
+Qapshaghay,43.8844,77.0687,Kazakhstan,KZ,Almaty,admin,42167,42167
+Soran,49.7833,72.8500,Kazakhstan,KZ,Qaraghandy,minor,42058,42058
+Ayagöz,47.9667,80.4333,Kazakhstan,KZ,Abay,minor,41593,41593
+Arys,42.4333,68.8000,Kazakhstan,KZ,Türkistan,minor,40707,40707
+Beyneū,45.3247,55.1958,Kazakhstan,KZ,Mangghystaū,minor,40344,40344
+Baikonur,45.6167,63.3167,Kazakhstan,KZ,Qyzylorda,,39161,39161
+Saryaghash,41.4667,69.1667,Kazakhstan,KZ,Türkistan,,38848,38848
+Shakhtīnsk,49.7100,72.5872,Kazakhstan,KZ,Qaraghandy,minor,37899,37899
+Qulsary,46.9833,54.0167,Kazakhstan,KZ,Atyraū,minor,37103,37103
+Esik,43.3500,77.4667,Kazakhstan,KZ,Almaty,minor,36715,36715
+Zhetisay,40.7753,68.3272,Kazakhstan,KZ,Türkistan,minor,36494,36494
+Shū,43.5983,73.7614,Kazakhstan,KZ,Zhambyl,minor,35000,35000
+Zhitiqara,52.1908,61.2011,Kazakhstan,KZ,Qostanay,minor,34736,34736
+Aksay,51.1678,52.9950,Kazakhstan,KZ,West Kazakhstan,minor,32873,32873
+Sayram,42.3000,69.7667,Kazakhstan,KZ,Shymkent,,32757,32757
+Shiyeli,44.1789,66.7328,Kazakhstan,KZ,Qyzylorda,minor,32480,32480
+Staryy Beyneu,45.1834,55.1000,Kazakhstan,KZ,Mangghystaū,,32452,32452
+Balyqshy,47.0667,51.8667,Kazakhstan,KZ,Atyraū,,31624,31624
+Tekeli,44.8300,78.8239,Kazakhstan,KZ,Zhetisū,minor,30707,30707
+Uzynaghash,43.2297,76.3100,Kazakhstan,KZ,Almaty,minor,30589,30589
+Qarataū,43.1667,70.4500,Kazakhstan,KZ,Zhambyl,minor,30204,30204
+Aral,46.7833,61.6667,Kazakhstan,KZ,Qyzylorda,minor,29887,29887
+Atbasar,51.8000,68.3333,Kazakhstan,KZ,Aqmola,minor,29733,29733
+Oktyabr’sk,49.4556,57.4161,Kazakhstan,KZ,Aqtöbe,minor,29169,29169
+Sortöbe,42.8600,75.2300,Kazakhstan,KZ,Zhambyl,,29000,29000
+Arqalyq,50.2481,66.9278,Kazakhstan,KZ,Qostanay,minor,28169,28169
+Shalqar,47.8333,59.6000,Kazakhstan,KZ,Aqtöbe,minor,27957,27957
+Boralday,43.3603,76.8578,Kazakhstan,KZ,Almaty,,27188,27188
+Shelek,43.5972,78.2511,Kazakhstan,KZ,Almaty,,26688,26688
+Abay,49.6311,72.8539,Kazakhstan,KZ,Qaraghandy,minor,25550,25550
+Lengir,42.1819,69.8878,Kazakhstan,KZ,Türkistan,minor,25298,25298
+Üshtöbe,45.2422,77.9822,Kazakhstan,KZ,Zhetisū,minor,24895,24895
+Sarykemer,43.0106,71.5172,Kazakhstan,KZ,Zhambyl,minor,24314,24314
+Oytal,42.9153,73.2549,Kazakhstan,KZ,Zhambyl,,22673,22673
+Qarazhal,48.0253,70.7999,Kazakhstan,KZ,Ulytaū,minor,22170,22170
+Khromtaū,50.2503,58.4347,Kazakhstan,KZ,Aqtöbe,minor,21156,21156
+Mangghystaū,43.6956,51.3261,Kazakhstan,KZ,Mangghystaū,minor,21004,21004
+Zhangatas,43.5705,69.7335,Kazakhstan,KZ,Zhambyl,minor,20731,20731
+Otegen Batyr,43.3333,77.0500,Kazakhstan,KZ,Almaty,,20163,20163
+Alga,49.9028,57.3333,Kazakhstan,KZ,Aqtöbe,minor,19705,19705
+Atasū,48.6903,71.6499,Kazakhstan,KZ,Ulytaū,minor,19616,19616
+Töle Bī,43.6768,73.7620,Kazakhstan,KZ,Zhambyl,,19551,19551
+Shemonaīkha,50.6269,81.9109,Kazakhstan,KZ,East Kazakhstan,minor,19127,19127
+Zhosaly,45.4893,64.0915,Kazakhstan,KZ,Qyzylorda,minor,18563,18563
+Uryzhar,47.0900,81.6228,Kazakhstan,KZ,Abay,minor,17320,17320
+Shongzhy,43.5417,79.4703,Kazakhstan,KZ,Almaty,minor,17263,17263
+Makīnsk,52.6292,70.4169,Kazakhstan,KZ,Aqmola,minor,16818,16818
+Qarabulaq,44.9089,78.4922,Kazakhstan,KZ,Zhetisū,minor,16037,16037
+Üsharal,46.1697,80.9394,Kazakhstan,KZ,Zhetisū,minor,15991,15991
+Bayserke,43.4797,77.0336,Kazakhstan,KZ,Almaty,,15124,15124
+Maqat,47.6500,53.3167,Kazakhstan,KZ,Atyraū,minor,14756,14756
+Qazyqurt,41.7598,69.3880,Kazakhstan,KZ,Türkistan,minor,14563,14563
+Zaysan,47.4667,84.8667,Kazakhstan,KZ,East Kazakhstan,minor,14389,14389
+Sarqan,45.4100,79.9186,Kazakhstan,KZ,Zhetisū,minor,14305,14305
+Eski Īkan,43.1833,68.5333,Kazakhstan,KZ,Türkistan,,14294,14294
+Aqköl,52.0000,70.9333,Kazakhstan,KZ,Aqmola,minor,14217,14217
+Shamalgan,43.3708,76.6236,Kazakhstan,KZ,Almaty,,13616,13616
+Masangshy,42.9289,75.3019,Kazakhstan,KZ,Zhambyl,,13606,13606
+Shetpe,44.1667,52.1167,Kazakhstan,KZ,Mangghystaū,minor,13346,13346
+Īnderbor,48.5500,51.7833,Kazakhstan,KZ,Atyraū,minor,13254,13254
+Qulan,42.9100,72.7150,Kazakhstan,KZ,Zhambyl,minor,13128,13128
+Balpyq Bī,44.8947,78.2083,Kazakhstan,KZ,Zhetisū,minor,12654,12654
+Tuzdybastaū,43.3189,77.0594,Kazakhstan,KZ,Almaty,,12577,12577
+Ereymentaū,51.6167,73.1000,Kazakhstan,KZ,Aqmola,minor,12518,12518
+Baūyrzhan Momyshuly,42.6189,70.7597,Kazakhstan,KZ,Zhambyl,minor,12491,12491
+Taiynsha,53.8478,69.7639,Kazakhstan,KZ,North Kazakhstan,minor,12418,12418
+Bayanaūyl,50.7889,75.6956,Kazakhstan,KZ,Pavlodar,minor,12354,12354
+Zhetibay,43.5942,52.0789,Kazakhstan,KZ,Mangghystaū,,11731,11731
+Novoīshīmskīy,53.1981,66.7694,Kazakhstan,KZ,North Kazakhstan,minor,11583,11583
+Esil,51.9556,66.4042,Kazakhstan,KZ,Aqmola,minor,11551,11551
+Derbisek,41.5608,69.3378,Kazakhstan,KZ,Türkistan,,11234,11234
+Emba,48.8267,58.1442,Kazakhstan,KZ,Aqtöbe,,11212,11212
+Abay,43.2092,76.7603,Kazakhstan,KZ,Almaty,,10439,10439
+Lūgovoy,42.9472,72.7644,Kazakhstan,KZ,Zhambyl,,10242,10242
+Serebryansk,49.6819,83.2847,Kazakhstan,KZ,East Kazakhstan,,10129,10129
+Qarabalyq,53.7506,62.0502,Kazakhstan,KZ,Qostanay,minor,9838,9838
+Saūmalköl,53.2914,68.1094,Kazakhstan,KZ,North Kazakhstan,minor,9480,9480
+Borovskoy,53.7964,64.1894,Kazakhstan,KZ,Qostanay,minor,9434,9434
+Sholaqqorghan,43.7650,69.1758,Kazakhstan,KZ,Türkistan,minor,9213,9213
+Qarqaraly,49.4167,75.4167,Kazakhstan,KZ,Qaraghandy,minor,9212,9212
+Kegen,43.0197,79.2203,Kazakhstan,KZ,Almaty,minor,9049,9049
+Qashyr,53.0804,76.0900,Kazakhstan,KZ,Pavlodar,minor,8931,8931
+Makhambet,47.6667,51.5833,Kazakhstan,KZ,Atyraū,minor,8905,8905
+Kürshim,48.5722,83.6542,Kazakhstan,KZ,East Kazakhstan,minor,8490,8490
+Chapaev,50.2000,51.1667,Kazakhstan,KZ,West Kazakhstan,minor,8476,8476
+Moyynqum,44.2858,72.9372,Kazakhstan,KZ,Zhambyl,minor,8463,8463
+Būlaevo,54.9056,70.4439,Kazakhstan,KZ,North Kazakhstan,minor,8433,8433
+Zerendi,52.9000,69.1500,Kazakhstan,KZ,Aqmola,minor,8369,8369
+Zhansügirov,45.3886,79.5022,Kazakhstan,KZ,Zhetisū,minor,8288,8288
+Shar,49.5858,81.0478,Kazakhstan,KZ,Abay,minor,8156,8156
+Quryq,43.2000,51.6500,Kazakhstan,KZ,Mangghystaū,minor,8118,8118
+Qusmuryn,52.4580,64.6000,Kazakhstan,KZ,Qostanay,minor,8049,8049
+Osakarovka,50.5619,72.5681,Kazakhstan,KZ,Qaraghandy,minor,8046,8046
+Koktobe,43.2606,76.9764,Kazakhstan,KZ,Almaty,,7989,7989
+Sharbaqty,52.4800,78.1500,Kazakhstan,KZ,Pavlodar,minor,7915,7915
+Ertis,53.3333,75.4572,Kazakhstan,KZ,Pavlodar,minor,7772,7772
+Narynqol,42.7258,80.1783,Kazakhstan,KZ,Almaty,minor,7731,7731
+Qazaly,45.7667,62.1000,Kazakhstan,KZ,Qyzylorda,minor,7686,7686
+Bayghanīn,48.6917,55.8740,Kazakhstan,KZ,Aqtöbe,minor,7657,7657
+Amangeldi,50.1811,65.1886,Kazakhstan,KZ,Qostanay,minor,7569,7569
+Zhänibek,49.4167,46.8500,Kazakhstan,KZ,West Kazakhstan,minor,7460,7460
+Sergeevka,53.8814,67.4088,Kazakhstan,KZ,North Kazakhstan,minor,7344,7344
+Mamlyutka,54.9414,68.5406,Kazakhstan,KZ,North Kazakhstan,minor,7320,7320
+Arshaly,50.8342,72.1717,Kazakhstan,KZ,Aqmola,minor,7051,7051
+Shyngghyrlaū,51.0950,54.0814,Kazakhstan,KZ,West Kazakhstan,minor,7005,7005
+Mezhdūrechenskoye,43.4528,76.7228,Kazakhstan,KZ,Almaty,,6972,6972
+Kishkeneköl,53.6394,72.3439,Kazakhstan,KZ,North Kazakhstan,minor,6779,6779
+Saghyz,48.2364,54.8819,Kazakhstan,KZ,Atyraū,,6530,6530
+Fyodorovka,53.6314,62.7078,Kazakhstan,KZ,Qostanay,minor,6406,6406
+Astrakhan,51.5283,69.7972,Kazakhstan,KZ,Aqmola,minor,6313,6313
+Derzhavīnsk,51.1000,66.3167,Kazakhstan,KZ,Aqmola,minor,6307,6307
+Miyaly,48.8850,53.7919,Kazakhstan,KZ,Atyraū,minor,6213,6213
+Shortandy,51.6975,70.9947,Kazakhstan,KZ,Aqmola,minor,6060,6060
+Smīrnovo,54.5119,69.4182,Kazakhstan,KZ,North Kazakhstan,minor,5718,5718
+Badamsha,50.5603,58.2772,Kazakhstan,KZ,Aqtöbe,minor,5668,5668
+Fort-Shevchenko,44.5167,50.2667,Kazakhstan,KZ,Mangghystaū,minor,5559,5559
+Yavlenka,54.3479,68.4598,Kazakhstan,KZ,North Kazakhstan,minor,5478,5478
+Presnovka,54.6703,67.1500,Kazakhstan,KZ,North Kazakhstan,minor,5322,5322
+Pavlodarskoe,52.3889,76.8614,Kazakhstan,KZ,Pavlodar,,5319,5319
+Qaraoy,43.5219,76.8297,Kazakhstan,KZ,Almaty,,5282,5282
+Torghay,49.6260,63.4990,Kazakhstan,KZ,Qostanay,minor,5277,5277
+Botaqara,50.0611,73.7156,Kazakhstan,KZ,Qaraghandy,minor,5223,5223
+Kaztalovka,49.7575,48.6950,Kazakhstan,KZ,West Kazakhstan,minor,5055,5055
+Zhympīty,50.2536,52.5950,Kazakhstan,KZ,West Kazakhstan,minor,4931,4931
+Dostyq,45.2533,82.4844,Kazakhstan,KZ,Zhetisū,,4698,4698
+Zhaqsy,51.9133,67.3325,Kazakhstan,KZ,Aqmola,minor,4678,4678
+Aqsū-Ayuly,48.7686,73.6774,Kazakhstan,KZ,Qaraghandy,minor,4587,4587
+Qamysty,51.9617,61.7836,Kazakhstan,KZ,Qostanay,minor,4484,4484
+Balkashīno,52.5175,68.7525,Kazakhstan,KZ,Aqmola,minor,4466,4466
+Qaramendi,51.6606,64.2256,Kazakhstan,KZ,Qostanay,minor,4425,4425
+Stepnyak,52.8333,70.7833,Kazakhstan,KZ,Aqmola,minor,4413,4413
+Kūlagīno,48.3708,51.5589,Kazakhstan,KZ,Atyraū,,4307,4307
+Qosshaghyl,46.8458,53.8047,Kazakhstan,KZ,Atyraū,,3935,3935
+Sayqyn,48.8125,46.7636,Kazakhstan,KZ,West Kazakhstan,minor,3686,3686
+Kökpekti,48.7500,82.4000,Kazakhstan,KZ,Abay,minor,3651,3651
+Lenīngradskoe,53.5369,71.5486,Kazakhstan,KZ,North Kazakhstan,minor,3509,3509
+Qarasū,52.6589,65.4858,Kazakhstan,KZ,Qostanay,minor,3476,3476
+Qaratöbe,49.7333,53.5000,Kazakhstan,KZ,West Kazakhstan,minor,3434,3434
+Myngbayev,43.2884,76.4516,Kazakhstan,KZ,Almaty,,3305,3305
+Egindiköl,50.8431,70.8258,Kazakhstan,KZ,Aqmola,,3285,3285
+Taskesken,47.2231,80.7889,Kazakhstan,KZ,Abay,,2999,2999
+Aqtoghay,48.3144,74.9769,Kazakhstan,KZ,Qaraghandy,minor,2770,2770
+Ketpen,43.4503,80.3500,Kazakhstan,KZ,Almaty,,2689,2689
+Aqsū,42.4219,69.8271,Kazakhstan,KZ,Türkistan,minor,,
+Myrzakent,40.6634,68.5451,Kazakhstan,KZ,Türkistan,minor,,
+Malīnovka,51.0689,70.9791,Kazakhstan,KZ,Aqmola,minor,,
+Koshi,50.9738,71.3525,Kazakhstan,KZ,Aqmola,minor,,
+Asa,43.0378,71.1482,Kazakhstan,KZ,Zhambyl,minor,,
+Temirlan,42.6000,69.2584,Kazakhstan,KZ,Türkistan,minor,,
+Zatobyl,53.2063,63.6991,Kazakhstan,KZ,Qostanay,minor,,
+Turar Rysqulov,42.5334,70.3496,Kazakhstan,KZ,Türkistan,minor,,
+Shornaq,43.4002,68.0237,Kazakhstan,KZ,Türkistan,minor,,
+Abay,41.3554,68.9833,Kazakhstan,KZ,Türkistan,minor,,
+Saryagash,41.8333,69.0167,Kazakhstan,KZ,Türkistan,minor,,
+Besköl,54.7750,69.1017,Kazakhstan,KZ,North Kazakhstan,minor,,
+Energetīcheskīy,43.4195,77.0202,Kazakhstan,KZ,Almaty,minor,,
+Molodezhnyy,49.8748,82.4903,Kazakhstan,KZ,East Kazakhstan,minor,,
+Qorday,43.0333,74.7167,Kazakhstan,KZ,Zhambyl,minor,,
+Ülbi,50.2671,83.3800,Kazakhstan,KZ,East Kazakhstan,minor,,
+Merke,42.8728,73.1786,Kazakhstan,KZ,Zhambyl,minor,,
+Taranovskoe,52.8355,62.5208,Kazakhstan,KZ,Qostanay,minor,,
+Lisakovsk,52.5333,62.5000,Kazakhstan,KZ,Qostanay,minor,,
+Shayan,43.0340,69.3805,Kazakhstan,KZ,Türkistan,minor,,
+Glūbokoe,50.1389,82.3111,Kazakhstan,KZ,East Kazakhstan,minor,,
+Borodūlīkha,50.7184,80.9295,Kazakhstan,KZ,Abay,minor,,
+Novaya Shūl’ba,50.5429,81.3285,Kazakhstan,KZ,Abay,minor,,
+Mortyq,50.7464,56.4965,Kazakhstan,KZ,Aqtöbe,minor,,
+Zhangaqorghan,43.9167,67.2500,Kazakhstan,KZ,Qyzylorda,minor,,
+Kamenka,51.1107,50.2945,Kazakhstan,KZ,West Kazakhstan,minor,,
+Saryözek,44.3612,77.9764,Kazakhstan,KZ,Zhetisū,minor,,
+Äulīeköl,52.3581,64.1407,Kazakhstan,KZ,Qostanay,minor,,
+Yul’evka,52.1165,64.2743,Kazakhstan,KZ,Qostanay,minor,,
+Aryqbalyq,52.9563,68.2018,Kazakhstan,KZ,North Kazakhstan,minor,,
+Vozvyshenka,54.4354,70.9422,Kazakhstan,KZ,North Kazakhstan,minor,,
+Saryköl,53.3163,65.5409,Kazakhstan,KZ,Qostanay,minor,,
+Shäūildir,42.7910,68.3717,Kazakhstan,KZ,Türkistan,minor,,
+Uzynköl,54.0378,65.3354,Kazakhstan,KZ,Qostanay,minor,,
+Ganyushkīno,46.6058,49.2704,Kazakhstan,KZ,Atyraū,minor,,
+Shubarqudyq,49.1439,56.4820,Kazakhstan,KZ,Aqtöbe,minor,,
+Denīsovka,52.4477,61.7494,Kazakhstan,KZ,Qostanay,minor,,
+Obaghan,53.0795,64.2952,Kazakhstan,KZ,Qostanay,minor,,
+Tīmīryazevo,53.7495,66.4885,Kazakhstan,KZ,North Kazakhstan,minor,,
+Samarskoe,49.0202,83.3677,Kazakhstan,KZ,East Kazakhstan,minor,,
+Aqqystaū,47.2236,51.0061,Kazakhstan,KZ,Atyraū,minor,,
+Ülken Vladīmīrovka,50.8867,79.4823,Kazakhstan,KZ,Abay,minor,,
+Oktyabr’skoe,52.1111,65.6758,Kazakhstan,KZ,Qostanay,minor,,
+Fedorovka,51.2210,51.9572,Kazakhstan,KZ,West Kazakhstan,minor,,
+Talshyq,53.6374,71.8740,Kazakhstan,KZ,North Kazakhstan,minor,,
+Zhelezīnka,53.5388,75.3133,Kazakhstan,KZ,Pavlodar,minor,,
+Uil,49.0753,54.6681,Kazakhstan,KZ,Aqtöbe,minor,,
+Aqsūat,47.7622,82.8016,Kazakhstan,KZ,Abay,minor,,
+Georgīevka,49.3267,81.5737,Kazakhstan,KZ,Abay,minor,,
+Bol’shenarymskoe,49.2124,84.5076,Kazakhstan,KZ,East Kazakhstan,minor,,
+Ūspenka,52.9073,77.4181,Kazakhstan,KZ,Pavlodar,minor,,
+Zhangaqīma,51.5961,67.5894,Kazakhstan,KZ,Aqmola,minor,,
+Zhalaghash,45.0833,64.6667,Kazakhstan,KZ,Qyzylorda,minor,,
+Ulytaū,48.6550,67.0059,Kazakhstan,KZ,Ulytaū,minor,,
+Aqqū,51.4697,77.7786,Kazakhstan,KZ,Pavlodar,minor,,
+Terengözek,45.0508,64.9750,Kazakhstan,KZ,Qyzylorda,minor,,
+Aqtoghay,53.0089,75.9850,Kazakhstan,KZ,Pavlodar,minor,,
+Dzhangala,49.2167,50.3333,Kazakhstan,KZ,West Kazakhstan,minor,,
+Novoalekseyevka,50.1600,55.6500,Kazakhstan,KZ,Aqtöbe,minor,,
+Terekti,48.4265,85.7347,Kazakhstan,KZ,East Kazakhstan,minor,,
+Egindiköl,51.0541,69.4793,Kazakhstan,KZ,Aqmola,minor,,
+Baqanas,44.8081,76.2772,Kazakhstan,KZ,Almaty,minor,,
+Qorghalzhyn,50.5837,70.0189,Kazakhstan,KZ,Aqmola,minor,,
+Tasty-Taldy,50.7282,66.6203,Kazakhstan,KZ,Aqmola,minor,,
+Qaraūyl,48.9451,79.2550,Kazakhstan,KZ,Abay,minor,,
+Köktöbe,51.5292,77.4733,Kazakhstan,KZ,Pavlodar,minor,,
+Komsomol’skoe,50.4286,60.5056,Kazakhstan,KZ,Aqtöbe,minor,,
+Kūrchatov,50.7567,78.5400,Kazakhstan,KZ,Abay,minor,,
+Kīevka,50.2621,71.5484,Kazakhstan,KZ,Qaraghandy,minor,,
+Yrghyz,48.6167,61.2667,Kazakhstan,KZ,Aqtöbe,minor,,
