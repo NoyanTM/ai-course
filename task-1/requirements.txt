@@ -9,3 +9,9 @@ python-dotenv
 pandas
 flower
 jupyter
+matplotlib
+scikit-learn
+geopandas
+folium
+keras
+tensorflow

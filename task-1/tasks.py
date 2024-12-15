@@ -9,7 +9,7 @@ from main import parse_data
 
 load_dotenv(find_dotenv())
 
-REDIS_URL = f"redis://:{os.getenv("REDIS_PASSWORD")}@{os.getenv("REDIS_HOST")}:{os.getenv('REDIS_PORT')}"
+REDIS_URL = f"redis://:{os.getenv('REDIS_PASSWORD')}@{os.getenv('REDIS_HOST')}:{os.getenv('REDIS_PORT')}"
 
 app_celery = Celery("tasks", broker=f'{REDIS_URL}/0', backend=f"{REDIS_URL}/1")
 

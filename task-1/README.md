@@ -27,8 +27,6 @@ https://moodle.astanait.edu.kz/mod/assign/view.php?id=159786
 3. 
 
 ## TODO
-cross validation tables
-ml algorithms
 rate limiting
 exceptions
 retries
