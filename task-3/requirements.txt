@@ -1,0 +1,14 @@
+pandas
+openpyxl
+nltk
+ipykernel
+ipywidgets
+scikit-learn
+matplotlib
+plotly
+nbformat
+transformers
+accelerate
+sentencepiece
+torch
+rank_bm25
