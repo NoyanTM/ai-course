@@ -1,2 +1,69 @@
-assignment 4 - ai-soft - 
-чат-бот помощник в тг группе, модерация отзывов, прогнозы цен на квартиру kolesa krisha kz
+# Task 4 - Report
+
+## Requirements
+- https://moodle.astanait.edu.kz/mod/assign/view.php?id=163837
+- Telegram bot
+  - Goal: Develop a functional Telegram bot that solves the problems of integration with external services, data analytics and providing a convenient interface for interacting with users.
+  - Task description / bot functions:
+    - Choose the programming language yourself.
+    - Multi-level user authentication (at least two authentication factors) Set up access rights differentiation: regular user, moderator, administrator.
+    - Integration with external APIs:  Connect to at least two external APIs (e.g. weather API, Google Maps, OpenAI). Implement functionality that depends on data from these APIs (e.g. route building, text analysis or providing a weather forecast).
+    - Data analytics: Collect statistics on interactions with the bot (number of requests, popular commands). Create a mechanism for displaying this analytics via chat (e.g. "Show me the statistics for the week").
+    - Text or image recognition: Add the ability for the user to upload images or text. Integration with ML/AI model for data analysis (text recognition in images, object detection in photos, or sentiment analysis of text).
+    - Chat with the bot: Implement a dialog mode in which the bot will answer questions in natural language.
+    - User customization of functionality: Users can customize what notifications they want to receive from the bot (e.g. daily reminders, weather forecast, news on a specific topic).
+    - Task and reminder management: Users can add tasks, set deadlines, and receive reminders.
+    - Integration with Google Calendar for event synchronization.
+    - Payment processing (if provided for by the bot's topic)
+    - Testing and deployment: Conduct modular and functional testing of the bot. Deploy the bot on a cloud server
+    - Creativity in implementation
+    - чат-бот помощник в тг группе, модерация отзывов, прогнозы цен на квартиру kolesa krisha kz, etc.
+
+## Solution
+- Installation:
+  - python3 -m venv venv
+  - source venv/bin/activate
+  - pip install -r requirements.txt
+  - alembic init migrations
+  - alembic revision --autogenerate -m "initial migration"
+  - alembic upgrade head
+  - python3 -m src.bot
+- Linux VM / WSL with Ubuntu 22.04 LTS
+- Docker
+  - [Docker Engine](https://docs.docker.com/engine/) + [Docker Compose](https://docs.docker.com/compose/)
+  - [or only Docker Desktop](https://docs.docker.com/desktop/)
+- CUDA Toolkit:
+  - "sudo apt install nvidia-cuda-toolkit"
+  - [.deb package](https://developer.nvidia.com/cuda-downloads)
+  - [or detailed installation](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)
+- GCC and G++ Compilers:
+  - "sudo apt install gcc g++"
+- Git + Git LFS:
+  - "sudo apt install git"
+  - "curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash"
+  - "sudo apt-get install git-lfs"
+  - "git lfs install"
+  - Install some model with "git clone ```link here```"
+- llama-cpp-python:
+  - ```CMAKE_ARGS="-DLLAMA_CUDA=on" FORCE_CMAKE=1``` or ```CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1```
+  - install with ```pip install llama-cpp-python```
+  - reinstall with ```pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir```
+  - for server api inference - ```pip install llama-cpp-python[server]```
+  - run server api inference - ```python3 -m llama_cpp.server --config_file <config_file or config file path>```
+  - https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/blob/main/Meta-Llama-3.1-8B-Instruct-Q6_K.gguf
+- Bot logic:
+  - аналог игры infinite craft но в telegram
+  - игрок может начать GameSession (POST - /start) и завершить (POST - /stop)
+    - у одного игрока только одна игровая сессия за раз
+    - и паралелльно другие игроки могут играть в свои сессии
+    - в идеале это one-to-one, но нужны записи прошлых игровых сессий поэтому one-to-many (Payer -> GameSession)
+  - в начале сессии, ему дается Inventory с базовыми items / elements (water, earth, fire, air)
+    - просмотр текущего инвентаря в GET - /collection
+  - игроку разрешено создавать комбинации / craft only with items within inventory (POST - /combine)
+    - комбинации генерируются за счет LLM модели
+  - если скомбинированный предмет будет уникальным / новым среди всех (is_found) то игроку начисляются баллы
+    - просмотр таблицы GET - /rating
+  - из ролей есть admin и user
+    - пользователь может только играть
+    - администратор может смотреть различную доп статистику и редактировать поведение модели / игры (temperature, prompt, etc.)
+  

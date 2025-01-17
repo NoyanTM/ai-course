@@ -1,0 +1,10 @@
+python-telegram-bot
+python-dotenv
+sqlalchemy
+alembic
+# CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python
+# transformers
+# datasets
+# evaluate
+# accelerate
+# torch
