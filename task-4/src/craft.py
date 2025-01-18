@@ -5,7 +5,7 @@ llm = Llama(
 )
 
 prompt = """
-In the style of Infinite Craft, so you must combine these two elements.
+In the style of Infinite Craft, so you must combine these two elements to NEW WORD by rules bellow
 Rules:
 1. Result should be a single word or short compound word without punctuation marks merged in one word in PascalCase
 2. Result should be logical and creative like "fire and lizard will be dragon"
