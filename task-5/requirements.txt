@@ -1,0 +1,19 @@
+pandas
+scikit-learn
+matplotlib
+nltk
+spacy
+gensim
+jupyter
+python-docx
+pypdf
+openpyxl
+plotly
+fastapi
+uvicorn[standard]
+# nbformat
+# transformers
+# accelerate
+# sentencepiece
+# torch
+# rank_bm25
