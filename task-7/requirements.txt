@@ -1,0 +1,14 @@
+tensorflow
+keras
+matplotlib
+numpy
+jupyter
+scikit-learn
+scikit-learn-extra
+setuptools
+pandas
+seaborn
+openpyxl
+nltk
+farm-haystack
+llama-cpp-python
