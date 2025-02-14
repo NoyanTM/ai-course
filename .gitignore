@@ -2,6 +2,8 @@
 /practice-25-12-2024/vue-practice/node_modules
 /task-4/Meta-Llama-3.1-8B-Instruct-Q6_K.gguf
 /task-5/data/*
+/task-final/data/*
+/task-final/huggingface/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

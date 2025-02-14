@@ -1,0 +1,32 @@
+services:
+  postgres:
+    image: postgres:17.0-bookworm
+    container_name: postgres_final
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${DATABASE_DB}
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+    volumes:
+      - postgres_data_final:/var/lib/postgres_data_final/data
+    ports:
+      - "127.0.0.1:${DATABASE_PORT_EXTERNAL}:${DATABASE_PORT}"
+    networks:
+      - final
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "pg_isready", "-p", "${DATABASE_PORT}", "-U", "${DATABASE_USER}"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 30s
+      start_interval: 5s
+
+volumes:
+  postgres_data_final:
+
+networks:
+  final:
+    driver: bridge
+    name: final

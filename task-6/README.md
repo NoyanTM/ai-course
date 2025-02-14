@@ -1,1 +1,10 @@
 https://github.com/NoyanTM/diploma-project
+
+assignment  6  ai - рекомендательная система / умный поиск / fuzzy search, pca method, embeddings, neural networks
+
+Developing a Recommender System
+1. Hybrid Recommender System with Multi-Task Learning Description: Develop a hybrid system that combines collaborative filtering, content analysis, and user text processing (e.g., reviews). Feature: Use multi-task learning approaches to train a model to simultaneously recommend products and predict ratings. Example: Marketplace recommendations with simultaneous user review analysis.
+2. Recommender System with Time Dynamics and Seasonality Description: Implement a system that takes into account changes in user preferences over time. Feature: Build time series to track trends, use recurrent neural networks to process data. Example: Clothing recommendations based on season and current fashion trends.
+3. Graph Neural Network (GNN) Recommender System Description: Develop a system that builds a graph of users and items (e.g., products, movies) and applies graph neural networks to make recommendations. Feature: Account for complex relationships between users and products, such as common interests or interactions. Example: Recommendations from friends or professional contacts on a social network.
+4. Constrained and Conditional Recommender System Description: Build a recommender system that suggests options subject to additional constraints, such as the user's budget, product availability, and compatibility with other products. Feature: Apply optimization techniques or ranking algorithms subject to constraints. Example: Recommending travel itineraries given budget, season, and preferences.
+5. Cross-domain Recommender System Description: Develop a system that can recommend items from different domains (e.g., movies and books, or courses and jobs). Feature: Use transfer learning to transfer knowledge across domains and train a model on mixed data. Example: Movie recommendations based on user's book preferences.
