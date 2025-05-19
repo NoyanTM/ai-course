@@ -4,6 +4,8 @@
 /task-5/data/*
 /task-final/data/*
 /task-final/huggingface/*
+/task-final/labelstudio/label-studio
+/task-final/labelstudio/label-studio-ml-backend
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

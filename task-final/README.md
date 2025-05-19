@@ -8,6 +8,9 @@
 ### Topic
 Data and data-driven approach in the context of AI field
 
+### Presentation in canva
+https://www.canva.com/design/DAGfSeilwk4/Ckn15nJkYGVmCiBb8Havkw/edit?utm_content=DAGfSeilwk4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ### Theoretical part
 
 #### Data in AI
@@ -37,8 +40,7 @@ Stanford (2019) highlights the importance of Human-in-the-Loop (HITL) and Reinfo
 Geocoding and GIS data analysis with AI and address normalization / generation
 1. [Geocoding](https://en.wikipedia.org/wiki/Address_geocoding) - task for converting or searching addresses or some title / name / description for specific location to the particular coordinates on the map. In the other hand, we have reverse geocoding, that does the opposite.
 2. This task is highly related on the both NLP (Natural Language Processing) and vector / spatial data analysis.
-3. In modern days, it could be solved with vast amount of toolkit and technologies: from LLM, SLM, just tokenizers, parsers, embeddings, etc.
-4. Additionally, some examples with LabelStudio, NER, text data
+3. In modern days, it could be solved with vast amount of toolkit and technologies: from LLM, SLM, just tokenizers, parsers, embeddings, NER, etc.
 
 Installation:
 ```
@@ -49,6 +51,30 @@ cat ./data/source_dump.sql | docker exec -i postgres_final psql -U postgres
     - install or reinstall with ```CMAKE_ARGS="-DLLAMA_CUDA=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir``` or ```CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir```
     - for server api inference - ```pip install llama-cpp-python[server]```
     - run server api inference - ```python3 -m llama_cpp.server --config_file <config_file or config file path>```
+```
+
+Agrilla:
+```
+mkdir argilla && cd argilla
+wget -O docker-compose.yaml https://raw.githubusercontent.com/argilla-io/argilla/main/examples/deployments/docker/docker-compose.yaml
+docker compose up -d
+http://localhost:6900
+```
+
+Labelstudio:
+```
+mkdir labelstudio && cd labelstudio
+git clone https://github.com/HumanSignal/label-studio.git
+docker compose up -d
+-----------
+git clone https://github.com/HumanSignal/label-studio-ml-backend.git
+cd label-studio-ml-backend/label_studio_ml/examples/{MODEL_NAME}
+docker-compose up
+-----------
+python3 -m venv venv
+source venv/bin/activate
+pip install label-studio
+label-studio
 ```
 
 ### References (APA)
